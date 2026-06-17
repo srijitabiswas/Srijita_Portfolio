@@ -132,8 +132,8 @@ export default function Landing() {
 
         /* ── HERO LAYOUT ── */
         .ln-hero {
-          min-height: 100svh;
-          padding: calc(var(--nav-h) + 28px) clamp(20px,5vw,72px) 60px;
+          min-height: 100vh;
+          padding: calc(var(--nav-h) + 20px) clamp(20px,5vw,72px) 20px;
           display: flex;
           align-items: center;
           max-width: 1320px;
@@ -142,14 +142,15 @@ export default function Landing() {
         .ln-hero-grid {
           width: 100%;
           display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: clamp(40px,6vw,80px);
+          grid-template-columns: 45% 55%;
+          gap: clamp(20px,4vw,40px);
           align-items: center;
         }
         .ln-hero-left {
           display: flex;
           flex-direction: column;
-          gap: 22px;
+          gap: 15px;
+          transform: translateY(-35px);
         }
         .ln-hero-right {
           display: flex;
@@ -158,25 +159,25 @@ export default function Landing() {
         }
         .ln-avatar-ph {
           width: 100%;
-          max-width: 650px;
+          max-width: 820px;
           height: 520px;
           background: rgba(139,92,246,0.04);
           border-radius: 20px;
         }
 
         /* ── TEXT ── */
-        .ln-hi   { font-size:clamp(18px,2.2vw,28px); font-weight:400; color:rgba(255,255,255,.55); margin:0; }
-        .ln-name { font-size:clamp(38px,5.5vw,72px); font-weight:900; letter-spacing:-.03em; color:#fff; margin:0; line-height:1; }
+        .ln-hi   { font-size:clamp(12px,1.6vw,24px); font-weight:400; color:rgba(255,255,255,.55); margin:0; }
+        .ln-name { font-size:clamp(20px,4.8vw,60px); font-weight:900; letter-spacing:-.03em; color:#fff; margin:0; line-height:1; }
 
         .ln-creative-blk { display:flex; flex-direction:column; gap:2px; }
-        .ln-creative-label { font-size:clamp(16px,2vw,26px); color:rgba(255,255,255,.42); font-weight:400; }
+        .ln-creative-label { font-size:clamp(12px,1.6vw,24px); color:rgba(255,255,255,.42); font-weight:400; }
         .ln-roles-row { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
-        .ln-role-dev { font-size:clamp(28px,4.5vw,58px); font-weight:900; letter-spacing:.02em; color:#fff; line-height:1.05; }
-        .ln-role-sep { font-size:clamp(24px,4vw,52px); font-weight:900; color:rgba(255,255,255,.35); line-height:1.05; }
-        .ln-role-des { font-size:clamp(28px,4.5vw,58px); font-weight:900; letter-spacing:.02em; color:#8b5cf6; line-height:1.05; }
+        .ln-role-dev { font-size:clamp(20px,4.0vw,55px); font-weight:900; letter-spacing:.02em; color:#fff; line-height:1.05; }
+        .ln-role-sep { font-size:clamp(12px,3.5vw,50px); font-weight:900; color:rgba(255,255,255,.35); line-height:1.05; }
+        .ln-role-des { font-size:clamp(20px,4.0vw,55px); font-weight:900; letter-spacing:.02em; color:#8b5cf6; line-height:1.05; }
 
         .ln-desc {
-          font-size: clamp(14px,1.3vw,17px);
+          font-size: clamp(10px,1.0vw,15px);
           line-height: 1.82;
           color: rgba(255,255,255,.48);
           max-width: 560px;
@@ -204,7 +205,7 @@ export default function Landing() {
         /* ══ WHAT I DO ══ */
         .ln-what {
           background: #000;
-          padding: clamp(80px,10vw,130px) clamp(20px,5vw,60px);
+          padding: clamp(30px,5vw,50px) clamp(20px,5vw,60px) 80px;
           border-top: 1px solid rgba(255,255,255,.06);
           opacity: 1;
         }
@@ -252,9 +253,9 @@ export default function Landing() {
           .ln-what-title { font-size:clamp(40px,11vw,64px); }
         }
         @media(max-width:480px) {
-          .ln-name { font-size:32px; }
-          .ln-role-dev,.ln-role-des { font-size:28px; }
-          .ln-role-sep { font-size:24px; }
+          .ln-name { font-size:20px; }
+          .ln-role-dev,.ln-role-des { font-size:20px; }
+          .ln-role-sep { font-size:20px; }
         }
       `}</style>
     </section>

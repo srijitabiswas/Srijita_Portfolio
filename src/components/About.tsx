@@ -23,7 +23,7 @@ const EXPERIENCE = [
   {
     role: "Social Media Manager",
     company: "Aperture Alchemist · Student Club",
-    date: "Apr 2026 – Present",
+    date: "Apr 2025 – Present",
     points: [
       "Planned and managed Instagram content strategy for community engagement and event promotion.",
       "Drove brand identity initiatives and grew community reach through visual storytelling.",
@@ -64,14 +64,10 @@ const About = () => {
           </h1>
 
           <p className="ab-bio">
-            I design and build digital products that live at the intersection of engineering
-            and creativity. With a strong foundation in frontend development and UI/UX design,
-            I focus on crafting experiences that are fast, intuitive, and visually compelling.
+            I’m a developer and designer passionate about creating modern digital experiences. I bridge design and development to deliver scalable, user-centric applications with an emphasis on quality, usability, and performance.
           </p>
           <p className="ab-bio">
-            From pixel-perfect interfaces and design systems to ML-integrated solutions and
-            responsive web applications — I bring a full-spectrum perspective to every product
-            I work on. I thrive where great design and clean code meet.
+            My work includes responsive web applications, backend systems, and AI-powered solutions, solving real-world problems through thoughtful design and reliable technology.
           </p>
 
           <p className="ab-quote">&ldquo;Good products are built where logic meets creativity.&rdquo;</p>
