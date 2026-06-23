@@ -33,99 +33,8 @@ const PROJECTS: ProjectT[] = [
     accent: "#22C55E",
     filter: "Dev",
   },
-  {
+{
     id: 2,
-    num: "02",
-    title: "Savor",
-    cat: "Full-Stack · Decision UX",
-    tags: ["React", "Node.js", "MongoDB", "AI"],
-    desc: "Decision-first food ordering platform with a natural-language Crave Assistant, 1,100+ structured dish records, and budget-first discovery — built to kill decision fatigue, not feed it.",
-    path: "/case/savor",
-    img: "/images/savor.png",
-    icon: "🍽️",
-    accent: "#D4712A",
-    filter: "UX",
-  },
-  {
-    id: 3,
-    num: "03",
-    title: "DeskGuard",
-    cat: "Full-Stack · Library Systems",
-    tags: ["React", "Node.js", "MongoDB", "Framer Motion"],
-    desc: "University library seat-management OS with live SVG floor maps, a trust-score system for responsible study habits, buddy reservations, and abandoned-seat auto-detection.",
-    path: "/case/deskguard",
-    img: "/images/deskguard.png",
-    icon: "🪪",
-    accent: "#2563EB",
-    filter: "Dev",
-  },
-  {
-    id: 4,
-    num: "04",
-    title: "TeamForge",
-    cat: "Full-Stack · Collaboration Platform",
-    tags: ["React", "Node.js", "MongoDB", "Matching AI"],
-    desc: "Student innovation OS guiding idea → team → execution. Generates project blueprints from plain-language ideas and scores team compatibility via a TeamDNA system.",
-    path: "/case/teamforge",
-    img: "/images/teamforge.png",
-    icon: "🧩",
-    accent: "#8B5CF6",
-    filter: "Dev",
-  },
-  {
-    id: 5,
-    num: "05",
-    title: "LuxeStay Villas",
-    cat: "UX Design · Figma",
-    tags: ["Figma", "UX Research", "Prototyping"],
-    desc: "End-to-end product design for a dual-sided rental platform — from user research and wireframes to high-fidelity Figma prototypes.",
-    path: "/case/luxestay",
-    img: "/images/luxestay.png",
-    icon: "🏖️",
-    accent: "#7C6FCD",
-    filter: "UX",
-  },
-  {
-    id: 6,
-    num: "06",
-    title: "SplitX",
-    cat: "Full-Stack · Expense Tracking",
-    tags: ["JavaScript", "Node.js", "MongoDB"],
-    desc: "Smart group expense tracker with automatic splitting, settlement tracking, and a trust-score badge system — built to keep shared finances friction-free.",
-    path: "/case/splitx",
-    img: "/images/splitx.png",
-    icon: "💸",
-    accent: "#2D8653",
-    filter: "Dev",
-  },
-  {
-    id: 7,
-    num: "07",
-    title: "Wellness Personas of SNU",
-    cat: "ML · Streamlit",
-    tags: ["Python", "Scikit-learn", "Streamlit"],
-    desc: "ML-powered lifestyle persona discovery app using KMeans clustering. Users discover their wellness persona through interactive sliders and radar charts.",
-    path: "/case/wellness",
-    img: "/images/wellness.png",
-    icon: "🧘",
-    accent: "#2E5FE8",
-    filter: "ML",
-  },
-  {
-    id: 8,
-    num: "08",
-    title: "Fake News Classification",
-    cat: "NLP · Machine Learning",
-    tags: ["Python", "TF-IDF", "Scikit-learn"],
-    desc: "NLP-based supervised ML system that classifies news articles as fake or real with 93.58% accuracy.",
-    path: "/case/fakenews",
-    img: "/images/fakenews.png",
-    icon: "📰",
-    accent: "#C4A000",
-    filter: "ML",
-  },
-  {
-    id: 9,
     num: "09",
     title: "Glow-AI",
     cat: "AI · Computer Vision · Marketplace",
@@ -137,9 +46,37 @@ const PROJECTS: ProjectT[] = [
     accent: "#EC4899",
     filter: "ML",
   },
+
   {
-    id: 10,
-    num: "10",
+    id: 3,
+    num: "03",
+    title: "Savor",
+    cat: "Full-Stack · Decision UX",
+    tags: ["React", "Node.js", "MongoDB", "AI"],
+    desc: "Decision-first food ordering platform with a natural-language Crave Assistant, 1,100+ structured dish records, and budget-first discovery — built to kill decision fatigue, not feed it.",
+    path: "/case/savor",
+    img: "/images/savor.png",
+    icon: "🍽️",
+    accent: "#D4712A",
+    filter: "UX",
+  },
+
+  {
+    id: 3,
+    num: "04",
+    title: "DeskGuard",
+    cat: "Full-Stack · Library Systems",
+    tags: ["React", "Node.js", "MongoDB", "Framer Motion"],
+    desc: "University library seat-management OS with live SVG floor maps, a trust-score system for responsible study habits, buddy reservations, and abandoned-seat auto-detection.",
+    path: "/case/deskguard",
+    img: "/images/deskguard.png",
+    icon: "🪪",
+    accent: "#2563EB",
+    filter: "Dev",
+  },
+ {
+    id: 5,
+    num: "5",
     title: "ZeroShield AI",
     cat: "Full-Stack · Cybersecurity",
     tags: ["React", "Node.js", "TypeScript", "Tailwind"],
@@ -148,6 +85,71 @@ const PROJECTS: ProjectT[] = [
     img: "/images/zeroshield.png",
     icon: "🛡️",
     accent: "#C43030",
+    filter: "Dev",
+  },
+{
+    id: 6,
+    num: "06",
+    title: "Fake News Classification",
+    cat: "NLP · Machine Learning",
+    tags: ["Python", "TF-IDF", "Scikit-learn"],
+    desc: "NLP-based supervised ML system that classifies news articles as fake or real with 93.58% accuracy.",
+    path: "/case/fakenews",
+    img: "/images/fakenews.png",
+    icon: "📰",
+    accent: "#C4A000",
+    filter: "ML",
+  },
+{
+    id: 7,
+    num: "07",
+    title: "TeamForge",
+    cat: "Full-Stack · Collaboration Platform",
+    tags: ["React", "Node.js", "MongoDB", "Matching AI"],
+    desc: "Student innovation OS guiding idea → team → execution. Generates project blueprints from plain-language ideas and scores team compatibility via a TeamDNA system.",
+    path: "/case/teamforge",
+    img: "/images/teamforge.png",
+    icon: "🧩",
+    accent: "#8B5CF6",
+    filter: "Dev",
+  },
+  {
+    id: 8,
+    num: "08",
+    title: "LuxeStay Villas",
+    cat: "UX Design · Figma",
+    tags: ["Figma", "UX Research", "Prototyping"],
+    desc: "End-to-end product design for a dual-sided rental platform — from user research and wireframes to high-fidelity Figma prototypes.",
+    path: "/case/luxestay",
+    img: "/images/luxestay.png",
+    icon: "🏖️",
+    accent: "#7C6FCD",
+    filter: "UX",
+  },
+ {
+    id: 9,
+    num: "09",
+    title: "Wellness Personas of SNU",
+    cat: "ML · Streamlit",
+    tags: ["Python", "Scikit-learn", "Streamlit"],
+    desc: "ML-powered lifestyle persona discovery app using KMeans clustering. Users discover their wellness persona through interactive sliders and radar charts.",
+    path: "/case/wellness",
+    img: "/images/wellness.png",
+    icon: "🧘",
+    accent: "#2E5FE8",
+    filter: "ML",
+  },
+  {
+    id: 10,
+    num: "10",
+    title: "SplitX",
+    cat: "Full-Stack · Expense Tracking",
+    tags: ["JavaScript", "Node.js", "MongoDB"],
+    desc: "Smart group expense tracker with automatic splitting, settlement tracking, and a trust-score badge system — built to keep shared finances friction-free.",
+    path: "/case/splitx",
+    img: "/images/splitx.png",
+    icon: "💸",
+    accent: "#2D8653",
     filter: "Dev",
   },
 ];
@@ -168,8 +170,8 @@ function ProjectCard({ p, onOpen }: { p: ProjectT; onOpen: (p: ProjectT) => void
     const y = e.clientY - rect.top;
     const px = x / rect.width;   // 0..1
     const py = y / rect.height;  // 0..1
-    const rx = (py - 0.5) * -10; // tilt X
-    const ry = (px - 0.5) * 10;  // tilt Y
+    const rx = (py - 0.5) * -3.5; // tilt X — subtle
+    const ry = (px - 0.5) * 3.5;  // tilt Y — subtle
     el.style.setProperty("--rx", `${rx}deg`);
     el.style.setProperty("--ry", `${ry}deg`);
     el.style.setProperty("--mx", `${px * 100}%`);
@@ -235,20 +237,39 @@ export default function Projects() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const ctx = gsap.context(() => {
+      if (reduceMotion) {
+        gsap.set(".pj-head > *", { opacity: 1, y: 0, filter: "blur(0px)" });
+        return;
+      }
       gsap.from(".pj-head > *", {
-        y: 30, opacity: 0, stagger: .1, duration: .8, ease: "expo.out",
+        y: 28, opacity: 0, filter: "blur(6px)", stagger: .1, duration: .8, ease: "power3.out",
         scrollTrigger: { trigger: ".pj-head", start: "top 80%", once: true },
       });
     }, ref);
     return () => ctx.revert();
   }, []);
 
+  const cardTriggerRef = useRef<ScrollTrigger | null>(null);
+
   useEffect(() => {
-    gsap.fromTo(".pj-card",
-      { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, stagger: 0.08, duration: 0.7, ease: "expo.out" }
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    cardTriggerRef.current?.kill();
+
+    if (reduceMotion) {
+      gsap.set(".pj-card", { y: 0, opacity: 1, filter: "blur(0px)" });
+      return;
+    }
+    const tween = gsap.fromTo(".pj-card",
+      { y: 36, opacity: 0, filter: "blur(6px)" },
+      {
+        y: 0, opacity: 1, filter: "blur(0px)",
+        stagger: 0.08, duration: 0.7, ease: "power3.out",
+        scrollTrigger: { trigger: ".pj-grid", start: "top 88%", once: true },
+      }
     );
+    cardTriggerRef.current = tween.scrollTrigger ?? null;
   }, [active]);
 
   const visible = active === "All" ? PROJECTS : PROJECTS.filter(p => p.filter === active);
@@ -283,7 +304,7 @@ export default function Projects() {
         .pj { padding:clamp(80px,10vw,130px) clamp(20px,5vw,60px); background:#050505; }
         .pj-inner { max-width: 1280px; margin: 0 auto; }
 
-        .pj-head { margin-bottom:44px; text-align:center; }
+        .pj-head { margin-bottom:56px; text-align:center; }
         .pj-eye {
           font-size:11px; font-weight:700; letter-spacing:.2em; text-transform:uppercase;
           color:rgba(255,255,255,0.35); margin-bottom:24px;
@@ -291,8 +312,8 @@ export default function Projects() {
         }
         .pj-eye::before, .pj-eye::after { content:''; height:1px; width:80px; background:rgba(255,255,255,0.15); }
         .pj-h2   {
-          font-size:clamp(34px,5vw,58px); font-weight:900; letter-spacing:-.03em; line-height:1.08;
-          margin-bottom:28px; color:#fff; text-align:left;
+          font-size:clamp(24px,3.4vw,40px); font-weight:900; letter-spacing:-.03em; line-height:1.1;
+          margin-bottom:24px; color:#fff; text-align:left;
         }
         .pj-h2 em { color:#8b5cf6; font-style:normal; }
 
@@ -305,7 +326,13 @@ export default function Projects() {
         .pj-filter:hover { border-color:#8b5cf6; color:#fff; }
         .pj-filter-on { background:#8b5cf6; border-color:#8b5cf6; color:#fff; }
 
-        .pj-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; }
+        .pj-grid {
+          display:grid;
+          grid-template-columns:repeat(3,minmax(0,1fr));
+          gap:32px 28px;
+          max-width: 1080px;
+          margin: 0 auto;
+        }
 
         /* ══ 3D TILT CARD ══ */
         .pj-card {
@@ -347,7 +374,7 @@ export default function Projects() {
 
         .pj-card-img {
           width:100%;
-          height:200px;
+          height:150px;
           overflow:hidden;
           position:relative;
           background:#111;
@@ -363,7 +390,7 @@ export default function Projects() {
           display:flex; align-items:center; justify-content:center;
           background: linear-gradient(135deg, var(--pa, #8b5cf6) 0%, #0a0a0a 130%);
         }
-        .pj-card-fallback span { font-size:44px; filter: drop-shadow(0 4px 14px rgba(0,0,0,.4)); }
+        .pj-card-fallback span { font-size:30px; filter: drop-shadow(0 4px 14px rgba(0,0,0,.4)); }
 
         .pj-live-badge {
           position:absolute; top:12px; right:12px;
@@ -374,36 +401,43 @@ export default function Projects() {
           padding:5px 11px; border-radius:99px;
         }
 
-        .pj-card-body { padding:22px 24px 26px; position:relative; z-index:2; }
-        .pj-card-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
-        .pj-card-cat  { font-size:10.5px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color: var(--pa, #8b5cf6); }
+        .pj-card-body { padding:22px 22px 24px; position:relative; z-index:2; }
+        .pj-card-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+        .pj-card-cat  { font-size:9.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color: var(--pa, #8b5cf6); }
         .pj-arr {
-          width:34px; height:34px; border-radius:50%; border:1.5px solid var(--pa, rgba(255,255,255,0.2));
-          display:flex; align-items:center; justify-content:center; font-size:14px; color:#fff; flex-shrink:0;
+          width:28px; height:28px; border-radius:50%; border:1.5px solid var(--pa, rgba(255,255,255,0.2));
+          display:flex; align-items:center; justify-content:center; font-size:11px; color:#fff; flex-shrink:0;
           transition:all .2s; background:none; cursor:pointer;
         }
         .pj-arr:hover { background:var(--pa, #8b5cf6); border-color:var(--pa, #8b5cf6); }
-        .pj-card-title { font-size:clamp(17px,2vw,20px); font-weight:800; letter-spacing:-.01em; color:#fff; margin-bottom:10px; }
+        .pj-card-title { font-size:16px; font-weight:800; letter-spacing:-.01em; color:#fff; margin-bottom:10px; }
         .pj-card-desc {
-          font-size:13.5px;
+          font-size:12.5px;
           line-height:1.7;
-          color:rgba(255,255,255,0.75);
+          color:rgba(255,255,255,0.65);
           margin-bottom:18px;
           font-weight:400;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
         }
-        .pj-tags { display:flex; flex-wrap:wrap; gap:6px; }
+        .pj-tags { display:flex; flex-wrap:wrap; gap:7px; }
         .pj-tag {
-          padding:5px 13px;
+          padding:4px 11px;
           border-radius:99px;
-          font-size:11px;
+          font-size:10px;
           font-weight:600;
-          background:rgba(255,255,255,0.08);
-          border:1px solid rgba(255,255,255,0.15);
+          background:rgba(255,255,255,0.07);
+          border:1px solid rgba(255,255,255,0.14);
           color:#ffffff;
         }
 
-        @media(max-width:860px) {
-          .pj-grid { grid-template-columns:1fr; }
+        @media(max-width:1100px) {
+          .pj-grid { grid-template-columns:repeat(2,minmax(0,1fr)); max-width: 720px; }
+        }
+        @media(max-width:640px) {
+          .pj-grid { grid-template-columns:1fr; max-width: 420px; gap: 24px; }
           .pj-card { transform: none !important; }
           .pj-card-glare { display:none; }
         }
