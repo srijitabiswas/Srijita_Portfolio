@@ -14,6 +14,10 @@ import CaseSplitX from "./components/pages/CaseSplitX";
 import CaseWellness from "./components/pages/CaseWellness";
 import CaseFakeNews from "./components/pages/CaseFakeNews";
 import CaseZeroShield from "./components/pages/CaseZeroShield";
+import CaseMediFlow from "./components/pages/CaseMediFlow";
+import CaseDeskGuard from "./components/pages/CaseDeskGuard";
+import CaseTeamForge from "./components/pages/CaseTeamForge";
+import CaseGlowAI from "./components/pages/CaseGlowAI";
 
 const Home = () => (
   <main>
@@ -47,6 +51,10 @@ const App = () => {
           <Route path="/case/wellness" element={<CaseWellness />} />
           <Route path="/case/fakenews" element={<CaseFakeNews />} />
           <Route path="/case/zeroshield" element={<CaseZeroShield />} />
+          <Route path="/case/mediflow" element={<CaseMediFlow />} />
+          <Route path="/case/deskguard" element={<CaseDeskGuard />} />
+          <Route path="/case/teamforge" element={<CaseTeamForge />} />
+          <Route path="/case/glowai" element={<CaseGlowAI />} />
         </Routes>
       </div>
 

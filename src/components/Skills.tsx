@@ -4,11 +4,11 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const SKILL_GROUPS = [
-  { label: "Design",       color: "#a78bfa", items: ["Wireframing","Prototyping","User Research","Responsive Design","UI Design","Design Systems","Figma","Adobe XD","Canva"] },
-  { label: "Development",  color: "#60a5fa", items: ["HTML","CSS","JavaScript","React.js","React Native","Tailwind CSS","Node.js"] },
-  { label: "Tools",        color: "#34d399", items: ["Git","GitHub","VS Code","Streamlit","Jupyter","Postman","Figma Dev Mode"] },
-  { label: "AI / ML & DS", color: "#f472b6", items: ["Scikit-learn","NLP","TF-IDF Vectorization","Machine Learning","Data Processing","Python for Data Science"] },
-  { label: "Programming",  color: "#fbbf24", items: ["C","C++","Java","Python","DSA","MySQL"] },
+  { label: "Languages",         color: "#fbbf24", items: ["C","C++","Java","Python","JavaScript"] },
+  { label: "Web Development",   color: "#60a5fa", items: ["React","Vite","Node.js","Express.js","Tailwind CSS","Socket.io"] },
+  { label: "Databases",         color: "#34d399", items: ["MongoDB","MySQL"] },
+  { label: "AI & Machine Learning", color: "#f472b6", items: ["Scikit-learn","Streamlit","Recommendation Systems","Computer Vision","Generative AI"] },
+  { label: "Tools & Design",    color: "#a78bfa", items: ["Git","GitHub","VS Code","Figma","Canva"] },
 ];
 
 const CERTS = [
@@ -26,6 +26,15 @@ const CERTS = [
 ];
 
 const HACKATHONS = [
+  {
+    name: "AI Startup Buildathon 2026 – Beauty Salon Marketplace Challenge", date: "2026",
+    badge: "48-Hour Buildathon",
+    bullets: ["Built Glow-AI, an AI-powered beauty and salon marketplace, from scratch in 48 hours.", "Led UI/UX design and frontend development for the AI face-scan and salon-discovery experience."],
+  },
+  {
+    name: "Bharat Academix CodeQuest", date: "2026",
+    bullets: ["Competed in a national-level coding and product-building challenge focused on solving real-world problems through technology."],
+  },
   {
     name: "Cloud Innovation Challenge", date: "Mar 2026 – Apr 2026",
     badge: "🏆 Top 150 of 1.4K+ participants",
@@ -53,9 +62,9 @@ const LANGS = [
 ];
 
 const EXPLORING = [
-  "Advanced React Patterns","System Design","LLM Fine-tuning",
-  "AI Product Design","Full Stack Development","Cloud Architecture",
-  "DSA & Competitive Programming","Computer Vision Basics","Product Management",
+  "Artificial Intelligence & Machine Learning","Full-Stack MERN Development",
+  "Product Design & UX","Recommendation Systems",
+  "Intelligent Decision Support Platforms","Scalable Web Applications",
 ];
 
 export default function Skills() {
