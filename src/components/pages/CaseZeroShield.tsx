@@ -80,7 +80,8 @@ export default function CaseZeroShield() {
         { label: "Architecture", items: ["Modular Services", "REST API", "Simulation Engine"] }
       ]}
       links={[
-        { label: "View Code", href: "https://github.com/Shrezzzzz/ZeroShield-AI", icon: "⌥" }
+        { label: "Demo Video", href: "https://youtu.be/KWsmJgv7vKU?si=6MPcR84HllX1122L", icon: "▶" },
+        { label: "View Code", href: "https://github.com/srijitabiswas/ZeroShield-AI", icon: "⌥" }
       ]}
       team={["Shreya Chowdhury", "Prakriti Sarkar", "Srijita Biswas"]}
     />
